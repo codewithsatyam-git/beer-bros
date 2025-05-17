@@ -8,9 +8,12 @@ import image4 from "../assets/Image4.jpg";
 import image5 from "../assets/Image5.jpg";
 import image6 from "../assets/Image6.jpg";
 
-const HeroSection = ({refProp, onContactClick}) => {
+const HeroSection = ({ refProp, onContactClick }) => {
   return (
-    <div ref={refProp} className="w-screen m-auto h-screen md:h-[60vh] lg:h-screen px-3 overflow-hidden flex justify-center">
+    <div
+      ref={refProp}
+      className="w-screen m-auto h-screen md:h-[60vh] lg:h-screen px-3 overflow-hidden flex justify-center"
+    >
       <motion.div
         animate={{
           y: -500,
@@ -198,10 +201,13 @@ const HeroSection = ({refProp, onContactClick}) => {
           delay: 4.5,
           ease: "easeInOut",
         }}
-
         className="absolute  hidden lg:block"
       >
-        <motion.button onClick={onContactClick} whileHover={{scale: 1.1, y: -2}} className="px-5 text-white py-1.5 overflow-hidden rounded z-30 bg-slate-900">
+        <motion.button
+          onClick={onContactClick}
+          whileHover={{ scale: 1.1, y: -2 }}
+          className="px-5 text-white py-1.5 overflow-hidden rounded z-30 bg-slate-900"
+        >
           Contact Us
         </motion.button>
       </motion.div>
@@ -215,39 +221,39 @@ const HeroSection = ({refProp, onContactClick}) => {
           opacity: 1,
         }}
         transition={{ duration: 1, delay: 4.5 }}
-        className="w-screen absolute mx-auto h-auto flex flex-wrap justify-around lg:hidden overflow-hidden md:grid md:grid-cols-3 md:place-items-center md:mt-10"
+        className="w-screen h-auto absolute mx-auto flex flex-wrap justify-around lg:hidden overflow-hidden md:grid md:grid-cols-3 md:place-items-center md:mt-10"
       >
-        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 select-none rounded-2xl my-2 overflow-hidden bg-sky-400">
+        <div className="h-48 w-44 select-none rounded-2xl my-2 overflow-hidden bg-sky-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             margarita
           </h1>
           <img src={image1} className="w-full z-0 h-full" />
         </div>
-        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-red-400">
+        <div className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-red-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             bloody mary
           </h1>
           <img src={image5} className="w-full h-full" />{" "}
         </div>
-        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-sky-400">
+        <div className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-sky-400">
           <h1 className="px-2 m-1.5 text-sm rounded-full absolute bg-slate-50 font-semibold capitalize">
             martini
           </h1>
           <img src={image3} className="w-full h-full" />{" "}
         </div>
-        <div drag whileDrag={{scale: 1.05}}  className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-violet-400">
+        <div className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-violet-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             cosmopolitan
           </h1>
           <img src={image4} className="w-full h-full" />{" "}
         </div>
-        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-emerald-400">
+        <div className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-emerald-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             mojito
           </h1>
           <img src={image2} className="w-full h-full" />{" "}
         </div>
-        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-yellow-400">
+        <div className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-yellow-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             negroni
           </h1>
