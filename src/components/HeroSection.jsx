@@ -217,43 +217,43 @@ const HeroSection = ({refProp, onContactClick}) => {
         transition={{ duration: 1, delay: 4.5 }}
         className="w-screen absolute mx-auto h-auto flex flex-wrap justify-around lg:hidden overflow-hidden md:grid md:grid-cols-3 md:place-items-center md:mt-10"
       >
-        <motion.div drag whileDrag={{scale: 1.05}} className="h-48 w-44 select-none rounded-2xl my-2 overflow-hidden bg-sky-400">
+        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 select-none rounded-2xl my-2 overflow-hidden bg-sky-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             margarita
           </h1>
           <img src={image1} className="w-full z-0 h-full" />
-        </motion.div>
-        <motion.div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-red-400">
+        </div>
+        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-red-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             bloody mary
           </h1>
           <img src={image5} className="w-full h-full" />{" "}
-        </motion.div>
-        <motion.div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-sky-400">
+        </div>
+        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-sky-400">
           <h1 className="px-2 m-1.5 text-sm rounded-full absolute bg-slate-50 font-semibold capitalize">
             martini
           </h1>
           <img src={image3} className="w-full h-full" />{" "}
-        </motion.div>
-        <motion.div drag whileDrag={{scale: 1.05}}  className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-violet-400">
+        </div>
+        <div drag whileDrag={{scale: 1.05}}  className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-violet-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             cosmopolitan
           </h1>
           <img src={image4} className="w-full h-full" />{" "}
-        </motion.div>
-        <motion.div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-emerald-400">
+        </div>
+        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-emerald-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             mojito
           </h1>
           <img src={image2} className="w-full h-full" />{" "}
-        </motion.div>
-        <motion.div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-yellow-400">
+        </div>
+        <div drag whileDrag={{scale: 1.05}} className="h-48 w-44 rounded-2xl my-2 overflow-hidden bg-yellow-400">
           <h1 className="px-2 m-1.5 text-xs rounded-full absolute bg-slate-50 font-semibold capitalize">
             negroni
           </h1>
           <img src={image6} className="w-full h-full" />{" "}
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </div>
   );
 };
