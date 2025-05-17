@@ -253,7 +253,7 @@ const HeroSection = ({refProp, onContactClick}) => {
           </h1>
           <img src={image6} className="w-full h-full" />{" "}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
