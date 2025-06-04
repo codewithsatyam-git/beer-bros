@@ -51,7 +51,7 @@ const Services = ({refProp}) => {
     slidesToShow: slideShow,
     slidesToScroll: 1,
   };
-  console.log(window.innerWidth);
+  // console.log(window.innerWidth);
   useEffect(() => {
     if (window.innerWidth > 600) {
       setSlideShow(3);
