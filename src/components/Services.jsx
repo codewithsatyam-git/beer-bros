@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const Services = ({refProp}) => {
-  const [slideShow, setSlideShow] = useState(2);
+  const [slideShow, setSlideShow] = useState(1);
   const services = [
     {
       name: "Concerts",
@@ -54,7 +54,7 @@ const Services = ({refProp}) => {
   console.log(window.innerWidth);
   useEffect(() => {
     if (window.innerWidth > 600) {
-      setSlideShow(5);
+      setSlideShow(3);
     } 
   }, []);
 
@@ -68,7 +68,7 @@ const Services = ({refProp}) => {
           {services.map((service) => {
             return (
               <motion.div whileHover={{scale: 1.06}} transition={{duration:0.2, delay:0.1}} key={service.id} className="flex justify-center">
-                <div className="h-36 m-1 lg:size-44 rounded-2xl bg-slate-200 flex items-center justify-center">
+                <div className="h-38 m-1 lg:h-60 lg:w-70 rounded-2xl bg-slate-200 flex items-center justify-center">
                   <h1 className="text-center font-semibold">{service.name}</h1>
                 </div>
               </motion.div>

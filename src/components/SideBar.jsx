@@ -15,7 +15,7 @@ const SideBar = ({
     <motion.div
       initial={{ x: 300 }}
       animate={{ x: xVal }}
-      transition={{ duration: 1, delay: 0.05 }}
+      transition={{ duration: 0.7, delay: 0.05 }}
       className="w-1/2 md:w-1/3 select-none h-screen bg-slate-100 fixed top-0 right-0 lg:hidden block z-50"
     >
       <motion.div
