@@ -25,7 +25,7 @@ const Contact = ({refProp}) => {
   return (
     <div ref={refProp} className="w-screen select-none h-auto bg-transparent flex justify-center flex-wrap lg:p-10 pt-20 p-4 ">
       <h4 className="w-full text-center text-4xl">Contact Us</h4>
-      <h2 className="w-full text-center mb-5">Let's talk drinks,dates and detalis</h2>
+      <h2 className="w-full text-center mb-5">Let's talk drinks,dates and details</h2>
       <div className="w-full lg:w-[calc(50%-40px)] px-3 py-5 rounded bg-slate-200 h-auto max-h-3/4 relative ">
         <h2 className="w-full text-center text-xl font-semibold text-black">Get in Touch</h2>
         <p className="text-center p-2 lg:text-start">Whether you're planning a wedding, corporate event, private party, or just need a professional touch behind the bar—we're here to help. Reach out to book our bartending services or ask any questions. We’ll get back to you within 24 hours.</p>
