@@ -1,12 +1,15 @@
 import React from "react";
-import blog1 from '../assets/blog1.jpg'
-import blog2 from '../assets/blog2.jpg'
-import blog3 from '../assets/blog3.jpg'
-import blog4 from '../assets/blog4.jpg'
+import blog1 from "../assets/blog1.jpg";
+import blog2 from "../assets/blog2.jpg";
+import blog3 from "../assets/blog3.jpg";
+import blog4 from "../assets/blog4.jpg";
 
-const Blog = ({refProp}) => {
+const Blog = ({ refProp }) => {
   return (
-    <div ref={refProp} className="w-screen h-auto bg-transparent mt-5 p-5 select-none">
+    <div
+      ref={refProp}
+      className="w-screen h-auto bg-transparent mt-5 p-5 select-none"
+    >
       <h4 className="w-full text-center text-4xl font-bold capitalize">blog</h4>
       <div className="w-screen h-auto">
         <h2 className="w-[calc(100%-25px)] md:w-full  my-5 text-center text-xl font-semibold">
@@ -32,10 +35,16 @@ const Blog = ({refProp}) => {
               to finish.
             </p>
           </div>
-          <img src={blog1} className="w-auto h-52 lg:h-60 lg:ml-20 mx-3 rounded" />
+          <img
+            src={blog1}
+            className="w-auto h-52 lg:h-60 lg:ml-20 mx-3 rounded"
+          />
         </div>
         <div className="w-full h-auto p-2 flex flex-wrap">
-          <img src={blog2} className="w-auto h-52 lg:h-60 mx-3 lg:mr-18 rounded" />
+          <img
+            src={blog2}
+            className="w-auto h-52 lg:h-60 mx-3 lg:mr-18 rounded"
+          />
           <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
             <p className="py-2">
               2. Customized Drink Menus and Signature Cocktails Professionals
@@ -56,10 +65,16 @@ const Blog = ({refProp}) => {
               saferenvironment for everyone.
             </p>
           </div>
-          <img src={blog3} className="w-auto h-52 lg:h-60 mx-3 lg:ml-20 rounded" />
+          <img
+            src={blog3}
+            className="w-auto h-52 lg:h-60 mx-3 lg:ml-20 rounded"
+          />
         </div>
         <div className="w-full h-auto p-2 flex flex-wrap">
-          <img src={blog4} className="w-auto h-52 mx-3 lg:h-60 lg:mr-18 rounded" />
+          <img
+            src={blog4}
+            className="w-auto h-52 mx-3 lg:h-60 lg:mr-18 rounded"
+          />
           <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
             <p className="py-2">
               4. Less Stress, More Fun for You When you hire professionals, you
