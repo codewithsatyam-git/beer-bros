@@ -5,7 +5,7 @@ import about from '../assets/about.jpg'
 
 const About = ({refProp}) => {
   return (
-    <div ref={refProp} className=" select-none lg:mt-0 mt-80 relative w-screen h-auto bg-transparent flex px-5 py-10 lg:pt-24">
+    <div ref={refProp} className=" select-none lg:mt-0 mt-20 relative w-screen h-auto bg-transparent flex px-5 py-10 lg:pt-24">
       <div className=" lg:w-[calc(60%-20px)] w-[calc(100%-40px)] lg:mx-3 h-auto">
         <h4 className="w-full text-center text-3xl font-bold">About</h4>
         <p className="w-full text-[18px] text-center lg:text-[20px] text-slate-900 px-5 lg:px-14 py-8">
