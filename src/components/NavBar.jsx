@@ -11,7 +11,7 @@ const NavBar = ({
   onContactClick,
 }) => {
   return (
-    <div className="w-screen px-5 overflow-hidden h-auto bg-transparent backdrop-blur-lg py-3 flex justify-between select-none items-center fixed z-40">
+    <div className="w-screen px-5 overflow-hidden h-auto bg-transparent backdrop-blur-lg py-3 flex justify-between select-none items-center fixed z-50">
       <div className="flex gap-2">
         <span className="text-slate-900 font-bold text-lg lg:text-xl uppercase  drop-shadow-slate-500 drop-shadow-xs">
           beer bro's
@@ -20,35 +20,35 @@ const NavBar = ({
       <ul className="text-slate-900 font-semibold lg:flex gap-8 hidden  ">
         <motion.li
           whileHover={{ scale: 1.08, y: -4 }}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-red-600 hover:text-shadow hover:text-shadow-black"
           onClick={onHomeClick}
         >
           Home
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.08, y: -4 }}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-red-600 hover:text-shadow hover:text-shadow-black"
           onClick={onAboutClick}
         >
           About
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.08, y: -4 }}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-red-600 hover:text-shadow hover:text-shadow-black"
           onClick={onServiceClick}
         >
           Services
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.08, y: -4 }}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-red-600 hover:text-shadow hover:text-shadow-black"
           onClick={onBlogClick}
         >
           Blog
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.08, y: -4 }}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-red-600 hover:text-shadow hover:text-shadow-black"
           onClick={onContactClick}
         >
           Contact Us

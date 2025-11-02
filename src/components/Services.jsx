@@ -79,23 +79,23 @@ const Services = ({ refProp }) => {
   return (
     <div
       ref={refProp}
-      className="w-screen h-auto p-5 bg-transparent select-none "
+      className="w-screen h-auto p-5 bg-transparent z-10  select-none "
     >
-      <h4 className="w-full text-center py-3 text-4xl font-bold">Services</h4>
+      <h4 className="w-full text-center z-10 py-3 text-4xl font-bold">Services</h4>
       <p className="w-full text-center pb-3">We provide services at..</p>
 
       <motion.div className="px-5 overflow-visible">
         <Slider {...settings}>
           {services.map((service) => {
             return (
-              <div key={service.id} className="flex justify-center  bg-cover">
+              <div key={service.id} className="flex justify-around bg-cover">
                 <div
                   style={{
                     backgroundImage: `url(${service.img})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                   }}
-                  className="h-44 m-1 lg:h-60 lg:w-70 rounded-2xl overflow-hidden bg-slate-200 flex items-center justify-center"
+                  className="h-44 m-1 md:m-auto lg:h-60 lg:w-70 rounded-2xl overflow-hidden bg-slate-200 flex items-center justify-center"
                 >
                   <h1 className="text-center text-white text-shadow-slate-900 text-shadow-lg text-lg font-bold">{service.name}</h1>
                 </div>

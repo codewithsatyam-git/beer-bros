@@ -3,14 +3,14 @@ import emailjs from "@emailjs/browser";
 import "../components/style.css";
 import { motion } from "motion/react";
 
-// serviceID- service_pxszarf
+// serviceID- service_efe2smc
 
 const Contact = ({refProp}) => {
   const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_pxszarf", "template_sb0ou0r", form.current, "bzA7yC-hjqN_Vphs-")
+      .sendForm("service_efe2smc", "template_sb0ou0r", form.current, "bzA7yC-hjqN_Vphs-")
       .then(
         (res) => {
           alert("message sent successfully!");
@@ -23,7 +23,7 @@ const Contact = ({refProp}) => {
   };
 
   return (
-    <div ref={refProp} className="w-screen select-none h-auto bg-transparent flex justify-center flex-wrap lg:p-10 pt-20 p-4 ">
+    <div ref={refProp} className="w-screen select-none z-10 h-auto bg-transparent flex justify-center flex-wrap lg:p-10 pt-20 p-4 ">
       <h4 className="w-full text-center text-4xl">Contact Us</h4>
       <h2 className="w-full text-center mb-5">Let's talk drinks,dates and details</h2>
       <div className="w-full lg:w-[calc(50%-40px)] px-3 py-5 rounded bg-slate-200 h-auto max-h-3/4 relative ">

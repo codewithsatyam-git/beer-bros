@@ -8,7 +8,7 @@ const Blog = ({ refProp }) => {
   return (
     <div
       ref={refProp}
-      className="w-screen h-auto bg-transparent mt-5 p-5 select-none"
+      className="w-screen h-auto bg-transparent z-10 mt-5 p-5 select-none"
     >
       <h4 className="w-full text-center text-4xl font-bold capitalize">blog</h4>
       <div className="w-screen h-auto">
@@ -24,7 +24,7 @@ const Blog = ({ refProp }) => {
             unforgettable. Here's why professional bar service matters more than
             you might think.
           </p>
-          <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
+          <div className="w-[calc(100%-25px)] lg:w-[calc(60%-20px)] p-1 lg:p-4">
             <p className="py-2">
               <span>1.</span> Professionalism and Experience Matter A seasoned
               bartender does more than pour drinks — they manage crowds, handle
@@ -45,7 +45,7 @@ const Blog = ({ refProp }) => {
             src={blog2}
             className="w-auto h-52 lg:h-60 mx-3 lg:mr-18 rounded"
           />
-          <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
+          <div className="w-[calc(100%-25px)] lg:w-[calc(60%-20px)] p-1 lg:p-4">
             <p className="py-2">
               2. Customized Drink Menus and Signature Cocktails Professionals
               can help you craft a personalized menu that fits your event's vibe
@@ -56,7 +56,7 @@ const Blog = ({ refProp }) => {
           </div>
         </div>
         <div className="w-full h-auto p-2 flex flex-wrap">
-          <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
+          <div className="w-[calc(100%-25px)] lg:w-[calc(60%-20px)] p-1 lg:p-4">
             <p className="py-2">
               3. Efficiency and Crowd Control Long lines and delayed drinks can
               kill the mood. Pro bartenders know how to manage volume
@@ -75,7 +75,7 @@ const Blog = ({ refProp }) => {
             src={blog4}
             className="w-auto h-52 mx-3 lg:h-60 lg:mr-18 rounded"
           />
-          <div className="w-[calc(100%-25px)] lg:w-[calc(50%-20px)] p-1 lg:p-4">
+          <div className="w-[calc(100%-25px)] lg:w-[calc(60%-20px)] p-1 lg:p-4">
             <p className="py-2">
               4. Less Stress, More Fun for You When you hire professionals, you
               get to relax and enjoy your own event. No worrying about drink

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-screen h-auto m-0 flex flex-wrap px-2 select-none bg-slate-900 py-5 ">
+    <footer className="w-screen h-auto m-0 flex flex-wrap px-2 select-none z-10 bg-slate-900 py-5 ">
       {/* <div className="text-white px-5 w-full lg:w-1/2">
         <h1 className="font-semibold m-2 w-full text-center text-xl">
           Follow Us{" "}
